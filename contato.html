@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPOM | Associação Beneficente Dos Subtenentes e Sargentos Da Pmerj </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="Aspom.html"> <img src="Imagens/ASPOM__2_-removebg-preview.png"> </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE A ASPOM</a></li>
+                <li><a href="beneficios.html">BENEFÍCIOS</a></li>
+                <li><a href="noticias.html">NOTÍCIAS</a></li>
+                <li><a href="contato.html">FALE CONOSCO</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+
+    <h1>FALE CONOSCO</h1>
+
+    </section>
+
+    <!----Contato------>
+
+    <section class="localizacao">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.7564060625837!2d-43.31141595941994!3d-22.885455237196897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d1f358939c1%3A0x5934000cde8931e6!2sAspom!5e0!3m2!1spt-BR!2sbr!4v1737767384297!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contato">
+        <div class="row">
+            <div class="contato-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Av. Dom Hélder Câmara, 8484</h5>
+                        <p>Piedade, Rio de Janeiro</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>(21) 2595-5342</h5>
+                        <p>Segunda a Sexta, 08H até 17H</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>aspomrj@yahoo.com.br</h5>
+                        <p>Nós contate através do email</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contato-col">
+
+                <form action="">
+                    <input type="text" placeholder="Digite seu nome" required>
+                    <input type="email" placeholder="Digite seu email" required>
+                    <input type="text" placeholder="Digite seu assunto" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="enviar" class="botao btver">Enviar Mensagem</button>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!---Rodapé------->
+
+    <section class="footer">
+        <h4>Sobre nós</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam dolorem cum distinctio corrupti laborum <br> iste culpa labore soluta nulla quis sunt deleniti, totam, dignissimos accusantium voluptas expedita sapiente laboriosam.</p>
+         <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+
+        </div>
+        <p>Criado por Nicolas Meireles</p> 
+         
+    </section>
+
+
+
+
+    <!------ JavaScript para mexer o menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
