@@ -14,14 +14,14 @@
 <body>
 <section class="sub-header">
     <nav>
-        <a href="Aspom.html"> <img src="Imagens/ASPOM__2_-removebg-preview.png"> </a>
+        <a href="index.html"> <img src="Imagens/ASPOM__2_-removebg-preview.png"> </a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="sobre.html">SOBRE A ASPOM</a></li>
                 <li><a href="beneficios.html">BENEFÍCIOS</a></li>
-                <li><a href="noticias.html">NOTÍCIAS</a></li>
+                <li><a href="noticias.html">EVENTOS</a></li>
                 <li><a href="contato.html">FALE CONOSCO</a></li>
             </ul>
             </div>
@@ -67,13 +67,17 @@
             </div>
             <div class="contato-col">
 
-                <form action="">
-                    <input type="text" placeholder="Digite seu nome" required>
-                    <input type="email" placeholder="Digite seu email" required>
-                    <input type="text" placeholder="Digite seu assunto" required>
-                    <textarea rows="8" placeholder="Message" required></textarea>
-                    <button type="enviar" class="botao btver">Enviar Mensagem</button>
-                </form>
+                <form action="https://formsubmit.co/nicolasmeireles83@gmail.com" method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://aspom.netlify.app/obrigado.html">
+                    <button type="submit">Enviar</button>
+               </form>
 
 
             </div>
@@ -87,10 +91,11 @@
 
     <section class="footer">
         <h4>Sobre nós</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam dolorem cum distinctio corrupti laborum <br> iste culpa labore soluta nulla quis sunt deleniti, totam, dignissimos accusantium voluptas expedita sapiente laboriosam.</p>
-         <div class="icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
+        <p> Clube Social, Serviços de Esporte, Cultura, Música, Dança e Salões para Festas, Eventos e Entretenimentos <br>
+             Venha e traga seu evento!</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/aspomoficial?locale=pt_BR"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/aspomrjoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
 
         </div>
         <p>Criado por Nicolas Meireles</p> 
